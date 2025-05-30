@@ -132,9 +132,9 @@ Variational autoencoders can generate synthetic tabular data that maintains the 
 
 ### Prerequisites
 
-- Python 3.7+
+- Python 3.9.x or 3.10.x 
 - Jupyter Notebook/Lab
-- Required libraries (installable via requirements.txt)
+- Required libraries (Please check the Notebook)
 
 ### Installation
 
