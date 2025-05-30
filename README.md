@@ -47,7 +47,6 @@ This repository explores the application of **Autoencoder Neural Networks** spec
 
 Our implementations demonstrate how autoencoders can:
 
-- 🔍 **Detect anomalies** in financial transactions and sensor readings
 - 📉 **Reduce dimensionality** while preserving critical information
 - 🧩 **Generate synthetic data** that maintains statistical properties of the original dataset
 - 🔮 **Extract meaningful features** for downstream machine learning tasks
@@ -115,7 +114,6 @@ Our implementations demonstrate how autoencoders can:
 
 ## 📈 Key Applications
 
-### Anomaly Detection in Financial Data 🏦
 
 <div align="center">
   <picture>
@@ -129,41 +127,6 @@ Our implementations demonstrate how autoencoders can:
 
 Variational autoencoders can generate synthetic tabular data that maintains the statistical properties and relationships of the original dataset, useful for privacy-preserving applications and data augmentation.
 
----
-
-## 🧪 Experiments & Results
-
-<div align="center">
-  <table>
-    <tr>
-      <th>Dataset</th>
-      <th>Architecture</th>
-      <th>Performance Metrics</th>
-    </tr>
-    <tr>
-      <td>Credit Card Fraud</td>
-      <td>Variational Autoencoder</td>
-      <td>AUC-ROC: 0.963 | Precision: 0.89 | Recall: 0.92</td>
-    </tr>
-    <tr>
-      <td>Customer Segmentation</td>
-      <td>Vanilla Autoencoder</td>
-      <td>Silhouette Score: 0.76 | Reconstruction MSE: 0.031</td>
-    </tr>
-    <tr>
-      <td>Sensor Readings</td>
-      <td>Denoising Autoencoder</td>
-      <td>RMSE: 0.045 | MAE: 0.032 | R²: 0.94</td>
-    </tr>
-    <tr>
-      <td>Medical Records</td>
-      <td>Sparse Autoencoder</td>
-      <td>Feature Importance Correlation: 0.87 | Compression Ratio: 5:1</td>
-    </tr>
-  </table>
-</div>
-
----
 
 ## 🚀 Getting Started
 
